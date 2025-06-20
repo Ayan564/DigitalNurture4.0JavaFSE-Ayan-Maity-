@@ -1,5 +1,6 @@
-import forecast.FinancialForecastRecursive;
-import forecast.FinancialForecastIterative;
+package Code;
+import Code.forecast.FinancialForecastIterative;
+import Code.forecast.FinancialForecastRecursive;
 
 public class Main {
     public static void main(String[] args) {

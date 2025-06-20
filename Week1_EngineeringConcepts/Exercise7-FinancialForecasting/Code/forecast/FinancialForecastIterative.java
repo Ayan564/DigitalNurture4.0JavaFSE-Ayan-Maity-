@@ -1,4 +1,4 @@
-package forecast;
+package Code.forecast;
 
 public class FinancialForecastIterative {
     public static double forecast(double presentValue, double rate, int periods) {

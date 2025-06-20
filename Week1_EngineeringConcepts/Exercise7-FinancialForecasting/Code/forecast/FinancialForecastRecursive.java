@@ -1,4 +1,4 @@
-package forecast;
+package Code.forecast;
 
 public class FinancialForecastRecursive {
     public static double forecast(double presentValue, double rate, int periods) {
