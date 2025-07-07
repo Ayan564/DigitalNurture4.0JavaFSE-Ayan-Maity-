@@ -16,6 +16,7 @@ public class OrmLearnApplication {
     }
 
     @Bean
+    @SuppressWarnings("unused") // suppresses the unused 'args' warning
     public CommandLineRunner demo(CountryService countryService) {
         return (args) -> {
             countryService.addCountry(new Country("IN", "India"));
